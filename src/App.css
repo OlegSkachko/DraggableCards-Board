@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+ }
+ .App {
+     width: 100vw;
+     height: 100vh;
+     display: flex;
+     justify-self: center;
+     align-items: center; 
+     font-size: 40px;
+ }
+
+ .card1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50vw;
+    height: 100vh;
+    background-color: lightseagreen;
+
+ }
+ .card2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50vw;
+    height: 100vh; 
+    background-color: limegreen;
+}
+.card1:hover,.card2:hover{
+    opacity: 90%;
+    color:paleturquoise;
+    cursor:pointer
+}
