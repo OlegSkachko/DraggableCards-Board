@@ -30,7 +30,6 @@
     background-color: limegreen;
 }
 .card1:hover,.card2:hover{
-    opacity: 90%;
-    color:paleturquoise;
-    cursor:pointer
+    background-color: rgba(197, 197, 4, 0.5);
+    cursor:pointer;
 }
